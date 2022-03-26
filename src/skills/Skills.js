@@ -7,10 +7,17 @@ import {Skill} from "./skill/Skill";
 const Skills =() => {
     return (
         <div className={style.skillsBlock}>
-            <div className= {`${styleContainer.container} ${style.skillsContainer}`} >
+            <div className= {style.skillsContainer}>
                 <h2 className={style.title}>My skills</h2>
                 <div className={style.skills}>
-                    <Skill/>
+
+                       <Skill title = {"JS"} description = {"The text about the skillThe text about the skillThe text about the skill"}/>
+                       <Skill title = {"CSS"} description = {"The text about the skill"}/>
+                       <Skill title = {"React"} description = {"The text about the skill"}/>
+                       <Skill title = {"Redux"} description = {"The text about the skill"}/>
+                       <Skill title = {"Typescript"} description = {"The text about the skill"}/>
+                       <Skill title = {"Jest"} description = {"The text about the skill"}/>
+
 
                 </div>
             </div>

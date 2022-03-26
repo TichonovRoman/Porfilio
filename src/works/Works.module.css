@@ -1,11 +1,11 @@
-.skillsBlock {
+.container {
     height: 100vh;
-    background-color: lightgreen;
+    background-color: lightcoral;
+    border: 1px solid;
 }
 
-.skillsContainer {
 
-    /*justify-content: flex-start;*/
+.worksBlock {
 
     border: 1px solid;
     height: 100%;
@@ -14,22 +14,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    justify-content: flex-start;
-
-
-
-
 }
 
 .title {
     background-color: darkgray;
 }
 
-.skills {
+.works {
     border: 1px solid;
     width: 100%;
     display: flex;
-   justify-content: space-between;
+    justify-content: space-between;
     flex-wrap: wrap;
+
+
 }
