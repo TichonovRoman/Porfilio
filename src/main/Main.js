@@ -11,7 +11,7 @@ const Main = () => {
                 <div className={style.text}>
                     <span>Hi There</span>
                     <h1>I am Roman Tikhonov</h1>
-                    <p>Frontend Developer.</p>
+                    <p>Front-end Developer.</p>
 
                 </div>
                 <div className={style.photo}>
