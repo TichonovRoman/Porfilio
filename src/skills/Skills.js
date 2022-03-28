@@ -11,7 +11,8 @@ const Skills =() => {
                 <h2 className={style.title}>My skills</h2>
                 <div className={style.skills}>
 
-                       <Skill title = {"JS"} description = {"The text about the skillThe text about the skillThe text about the skill"}/>
+                       <Skill title = {"JS"} description = {"The text about the skillThe " +
+                           "text about the skillThe text about the skill"}/>
                        <Skill title = {"CSS"} description = {"The text about the skill"}/>
                        <Skill title = {"React"} description = {"The text about the skill"}/>
                        <Skill title = {"Redux"} description = {"The text about the skill"}/>

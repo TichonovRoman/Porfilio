@@ -1,12 +1,12 @@
 .container1 {
-    min-height: 100vh;
-    background-color: sandybrown;
+    height: 100vh;
+    background-color: lightgreen;
     border: 1px solid;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    box-sizing: border-box;
+
+
 }
+
 
 .block {
 
@@ -18,10 +18,11 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    /*box-sizing: border-box;*/
 }
 
 .container2 {
-    height: 150px;
+    height: 350px;
     width: 600px;
     background-color: sandybrown;
     border: 1px solid;
@@ -29,13 +30,31 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    /*box-sizing: border-box;*/
+}
+
+
+
+.form {
+
+    border: 1px solid;
+    display: flex;
+    height: 150px;
+    width: 300px;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.textarea {
+    min-height: 70px;
+
 }
 
 .title {
     background-color: darkgray;
     text-align: center;
 }
-
 .button {
     width: 100px;
     height: 40px;

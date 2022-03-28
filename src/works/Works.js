@@ -8,8 +8,17 @@ export const Works = () => {
             <div className={s.worksBlock}>
                 <h2 className={s.title}>My works</h2>
                 <div className={s.works}>
-                    <Work name = {"Todolist"} description={"some description of the project № 1"}/>
-                    <Work name = {"Social Network"} description={"some description of the project № 2"}/>
+                    <Work name = {"Todolist"}
+                          description={"some description of the project № 1"}
+                          link = {""} // ссылка на проект
+                          img = {""} //ссылка на картинку
+
+                    />
+                    <Work name = {"Social Network"}
+                          description={"some description of the project № 2"}
+                          link = {""}
+
+                    />
 
                 </div>
             </div>
