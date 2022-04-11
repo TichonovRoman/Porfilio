@@ -8,10 +8,10 @@ export const Footer = () => {
                 <div className={s.container2}>
                     <h2 className={s.title}>Tikhonov Roman</h2>
                     <div className={s.links}>
-                       <div className={s.link}></div>
-                       <div className={s.link}></div>
-                       <div className={s.link}></div>
-                       <div className={s.link}></div>
+                       <div className={s.link}/>
+                       <div className={s.link}/>
+                       <div className={s.link}/>
+                       <div className={s.link}/>
 
                     </div>
                     <h2>@2022 All rights reserved</h2>

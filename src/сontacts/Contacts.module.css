@@ -40,11 +40,12 @@
     border: 1px solid;
     display: flex;
     height: 150px;
-    width: 300px;
+    width: 50%;
     flex-direction: column;
     justify-content: space-between;
 
 }
+
 
 .textarea {
     min-height: 70px;
@@ -59,4 +60,9 @@
     width: 100px;
     height: 40px;
     background-color: darkgray;
+}
+@media screen and (max-width: 500px) {
+    .form {
+        width: 100%;
+    }
 }

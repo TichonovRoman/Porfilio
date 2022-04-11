@@ -1,12 +1,12 @@
 .work {
-    background-color: lemonchiffon;
+    background-color: #252527;
     width: 300px;
     border: 1px solid;
 }
 
 
 .description {
-
+background-color: #252527;
 }
 
 
@@ -16,7 +16,9 @@
 }
 
 .name {
-    background-color: gray;
+    font: 700 40px/1.2 'Josefin Sans', sans-serif;
+    color: #fff;
+    font-size: 16px;
 }
 
 .iconBlock {

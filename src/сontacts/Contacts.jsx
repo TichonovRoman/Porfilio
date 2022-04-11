@@ -8,12 +8,12 @@ export const FeedbackForm = () => {
                 <div className={s.container2}>
                     <h2 className={s.title}>Contacts</h2>
                     <form className={s.form}>
-                        <input/>
-                        <input/>
+                        <input type="text"/>
+                        <input type="text"/>
                         <textarea className={s.textarea}/>
 
                     </form>
-                    <button className={s.button}>Send</button>
+                    <button type={"submit"} className={s.button}>Отправить</button>
                 </div>
 
 

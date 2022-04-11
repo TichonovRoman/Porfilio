@@ -1,11 +1,15 @@
 .container {
     min-height: 100vh;
-    background-color: lightcoral;
+    background-color: #1f1f20;
     border: 1px solid;
+}
+.description {
+    background-color: #252527;
 }
 
 
 .worksBlock {
+    padding: 100px 0;
 
     border: 1px solid;
     height: 100%;
@@ -17,7 +21,18 @@
 }
 
 .title {
-    background-color: darkgray;
+    margin-bottom: 30px;
+    font-weight: 300;
+    color: #fff;
+    text-transform: capitalize;
+    }
+
+.title h2 {
+    /*font-size: 36px;*/
+    margin: 0 0 30px;
+
+    font: 400 36px/1.2 'Josefin Sans', sans-serif;
+    letter-spacing: 5px;
 }
 
 .works {
@@ -26,6 +41,10 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
 
-
+@media screen and (max-width: 1129px) {
+    .works {
+        justify-content: center;
+    }
 }
