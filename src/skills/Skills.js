@@ -3,12 +3,15 @@ import style from "./Skills.module.css"
 import Nav from "../nav/Nav";
 import styleContainer from "../../src/common/styles/Container.module.css"
 import {Skill} from "./skill/Skill";
+import {Title} from "../common/components/title/Title";
 
 const Skills =() => {
     return (
         <div className={style.skillsBlock}>
             <div className= {style.skillsContainer}>
-                <h2 className={style.title}>My skills</h2>
+                <Title text={"My skills"}/>
+
+                {/*<h2 className={style.title}>My skills</h2>*/}
                 <div className={style.skills}>
 
                        <Skill title = {"JS"} description = {"The text about the skillThe " +

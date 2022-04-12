@@ -1,45 +1,92 @@
 .work {
     background-color: #252527;
-    width: 300px;
-    border: 1px solid;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    /*border: 1px solid;*/
 }
 
 
 .description {
-background-color: #252527;
+    /*background-color: #252527;*/
+    padding: 25px 20px;
 }
 
-
-.shortDescription {
-    background-color: gray;
-
-}
 
 .name {
-    font: 700 40px/1.2 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     color: #fff;
     font-size: 16px;
+    letter-spacing: 1px;
+    margin: 0 0 5px;
+    line-height: 1.2;
 }
 
-.iconBlock {
-    width: 100%;
-    height: 150px;
-    background-color: rosybrown;
+.shortDescription {
+    /*background-color: gray;*/
+    font-family: 'Poppins', sans-serif;
+    color: #fff !important;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.8;
+
+}
+
+
+/*.iconBlock {*/
+/*    width: 100%;*/
+/*    height: 250px;*/
+/*    background-color: rosybrown;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+
+/*}*/
+
+/*.icon {*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    background-color: tomato;*/
+/*}*/
+
+/*.link {*/
+/*    position: absolute;*/
+/*    background-color: gray;*/
+
+/*}*/
+
+.image {
+    height: 300px;
+    background-color: #f4a460;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
 
-.icon {
-    width: 100%;
-    height: 100%;
-    background-color: tomato;
-}
-
-.link {
+.image::before {
     position: absolute;
-    background-color: gray;
+    content: "";
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.4;
+}
+
+.viewBtn {
+    background-color:  mintcream;
+    padding: 10px 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: #4e93e6;
+    line-height: 1.2;
+    border: 1px #4e93e6 solid;
+    position: relative;
+    z-index: 1;
 
 }
