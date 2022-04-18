@@ -1,0 +1,65 @@
+@import "../../common/styles/sass/variables";
+@import "../../common/styles/sass/mixins";
+
+
+.work {
+  background-color: $bgSecondColor;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+
+  .image {
+    height: 300px;
+    background-color: #f4a460;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: "";
+      background-color: black;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 0.4;
+    }
+
+    .viewBtn {
+      background-color: $primaryColor;
+      padding: 10px 20px;
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 20px;
+      color: $textColor;
+      line-height: 1.2;
+      border: 1px $primaryColor solid;
+      position: relative;
+      z-index: 1;
+      text-decoration: none;
+
+    }
+  }
+
+  .description {
+    padding: 25px 20px;
+
+    .name {
+      @include text($titleFontFamily, 16px, 1.2);
+      letter-spacing: 1px;
+      margin: 0 0 5px;
+    }
+
+    .shortDescription {
+      @include text($textFontFamily, 12px, 1.8);
+      font-weight: 400;
+    }
+  }
+}
+
+
+
+

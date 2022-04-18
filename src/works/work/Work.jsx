@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./Work.module.css"
+import style from "./Work.module.scss"
 
 
 export const Work = (props) => {
@@ -8,7 +8,7 @@ export const Work = (props) => {
         <div className={style.work}>
 
             <div className={style.image} style={props.style}>
-                <a className={style.viewBtn}>View</a>
+                <a className={style.viewBtn} href={""}>View</a>
             </div>
 
 

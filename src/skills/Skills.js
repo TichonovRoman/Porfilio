@@ -11,7 +11,6 @@ const Skills =() => {
             <div className= {style.skillsContainer}>
                 <Title text={"My skills"}/>
 
-                {/*<h2 className={style.title}>My skills</h2>*/}
                 <div className={style.skills}>
 
                        <Skill title = {"JS"} description = {"The text about the skillThe " +

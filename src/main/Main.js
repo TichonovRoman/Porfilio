@@ -1,7 +1,8 @@
-import style from "../main/Main.module.css";
+import style from "./Main.module.scss";
 import Nav from "../nav/Nav";
 import React from "react";
 import styleContainer from "../../src/common/styles/Container.module.css"
+import myPhoto from "../assets/image/My Fhoto.jpg"
 
 
 const Main = () => {
@@ -10,13 +11,15 @@ const Main = () => {
             <div className={styleContainer.container}>
                 <div className={style.text}>
                     <span>Hi There</span>
-                    <h1>I am Roman Tikhonov</h1>
+                    <h1>I am</h1>
+                    <h1>Roman Tikhonov</h1>
                     <p>Front-end Developer.</p>
 
                 </div>
-                <div className={style.photo}>
+                <img className={style.photo} alt={"My Photo"} src={myPhoto}/>
+                {/*<span className={style.photo}>*/}
 
-                </div>
+                {/*</span>*/}
 
             </div>
 
